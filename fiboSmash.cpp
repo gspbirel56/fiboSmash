@@ -1,12 +1,10 @@
 // Would just like to comment to say that I know this is going to overflow, and I know it's not going to actually get the fibonacci number...
-// ...but it's just so fun to watch a program utilize 4GB (that I allocated myself) and then free it all.
+// ...but it's just so fun to watch a program utilize 8GB for no real reason.
 // System Requirements:
 //      -a fast CPU
 //      -at least 8GB RAM (4 bytes per integer * 2147483647 integers)
 //      -maybe the sense to not run the executable of this...
-
-// UPDATE: May as well throw ni some IO utilization as well...right?
-
+//      -disk space to spare
 
 #include <iostream>
 #include <fstream>
